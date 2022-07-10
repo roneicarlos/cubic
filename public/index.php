@@ -3,6 +3,8 @@
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 
+use function PHPUnit\Framework\fileExists;
+
 define('LARAVEL_START', microtime(true));
 
 /*
@@ -31,7 +33,7 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 |
 */
 
-require __DIR__.'/../vendor/autoload.php';
+require '../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
