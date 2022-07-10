@@ -9,21 +9,21 @@ cp .env.example .env
 Suba os containers do projeto
 
 ```sh
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 
 Acessar o container
 
 ```sh
-docker-compose exec app bash
+sudo docker-compose exec app bash
 ```
 
 
 Instalar as dependências do projeto
 
 ```sh
-composer install
+composer update
 ```
 
 Gerar a key do projeto Laravel
