@@ -32,5 +32,6 @@ Gerar a key do projeto Laravel
 php artisan key:generate
 ```
 
+
 Acesse o projeto
 [http://localhost:8000](http://localhost:8000)
